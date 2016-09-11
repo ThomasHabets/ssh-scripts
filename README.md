@@ -2,6 +2,8 @@
 
 Collection of scripts to use with SSH.
 
+This is not an official Google product.
+
 ## `sshexpect.py`
 
 Upload/download files inline with an interactive SSH session.
