@@ -4,12 +4,12 @@ Collection of scripts to use with SSH.
 
 This is not an official Google product.
 
-## `sshexpect.py`
+## `ssmodem`
 
 Upload/download files inline with an interactive SSH session.
 
 ```
-./ssexpect.py ssh shell.example.com
+./ssmodem shell.example.com
 Password: <…>
 user@host$ ls
 user@host$ rz
@@ -22,4 +22,15 @@ user@host$ ls
 foo.crt
 foo.key
 user@host$
+```
+
+## `oassh`
+
+Reconnect typing password and `screen -x` if you get disconnected.
+
+```
+./oassh shell.example.com
+Overly attached password: <…>
+Immediate command: <…>
+[… logged in…]
 ```

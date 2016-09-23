@@ -1,4 +1,5 @@
 #!/usr/bin/expect -f
+# -*- tcl -*-
 #
 # Overly Attached SSH
 #
